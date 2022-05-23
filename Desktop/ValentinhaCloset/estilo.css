@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: 'Libre Bodoni', serif;}
+
+ul {
+    list-style: none;
+    font-weight: 700;}
+
+a {
+    text-decoration: none;}
+
+.container {
+    text-align: center;}
+
+.container .name h1 {
+    font-size: 50px;}
+
+.container .name h5 {
+    font-size: 25px;}
+
+    #arrow {
+        font-size: 30px;
+        cursor: pointer;
+        animation: blink 2s steps(4,start) infinite;
+    }
+
+    @keyframes blink {to { visibility: hidden; } }
+
+    #animation {
+        transition: 300ms;
+    }
+
+    .rotate { transform: rotate(180deg);
+    transition: 300ms}
+
+    .active {
+        display: block !important;
+    }
+
+.container p {
+    font-size: 20px;}
+
+body {
+    background-image: linear-gradient(90deg, #f70d93, #f90a93, #fb0793, #fd0392, #ff0092);}
+
+    header {
+       display: flex;
+       justify-content:space-around;
+       align-items: center;
+       padding: 10px;
+       /* border-bottom: 5px solid #fff; */
+       /* border-bottom: 10px ridge; */
+       
+        
+          }
+          header img {
+            height: 250px;
+            width: 250px;}
+
+    header ul{
+        display:flex; }
+
+        header ul li{
+            padding:50px;
+            }
+
+            header ul li a{
+                transition: 500ms;
+            }
+
+            header ul li a:hover {
+                color:rgb(109, 102, 107);
+                text-decoration: underline;
+                }
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.form input {
+    width: 40%;
+padding: 7px 10px;
+border: none;
+border-radius: 5px 0px 0px 5px;
+}
+
+.form button {
+    width: 15%;
+padding: 7px 10px;
+background: linear-gradient(to right, #c504cc 50%, #800499 50%);
+background-size: 200% 100%;
+background-position: right bottom;
+color:#fdfdfd;
+font-weight: 600;
+border: none;
+cursor:pointer;
+font-family: 'Libre Bodoni', serif;
+transition: 700ms;
+border-radius: 0px 5px 5px 0px;
+margin-left: -5px;
+
+}
+
+.form button:hover {
+    background-position: left bottom;
+}
+
+.form ::placeholder {
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 300;
+    color: darkgray;}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex div {
+    margin: 2px;
+    flex-basis: 100%;}
+
+.flex img {
+    max-width: 200px;}
+
+    .flex p{
+        background-color: darkmagenta;
+        font-family: 'Libre Bodoni', serif;
+        font-weight: 700;
+}
+

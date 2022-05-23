@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/17b620f9b3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Libre+Bodoni:ital,wght@1.700 & display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Distribuidora Valentinha</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./Valentinha.jpeg" alt="Logo Valentinha" width="200" height="200" />
+        </div>
+        <ul>
+
+            <li>
+                <a target="_blank" href="https://web.whatsapp.com/send?phone=5598991078126)">Whatsapp</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://instagram.com/valentinha_empreendedora?igshid=YmMyMTA2M2Y=">Instagram</a>
+            </li>
+            <li>
+                <a target="_blank" href="diegowenderson0119@gmail.com">E-mail</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <section class="container">
+            <div class="name">
+                <h1>Distribuidora Valentinha Closet</h1>
+                <h5>Empoderando Empreendedoras</h5>
+            </div>
+
+            <div onclick="displayabout()" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
+            </div>
+            <div style= "display: none" id="about">
+                <p>
+                    Eu sou a Cardoso, uma mulher empreendedora, representante da Distribuidora de Confecções,
+                    especialista em vendas no atacado para quem está começando a investir, com pouco dinheiro.
+                    Também vendemos no varejo com um preço especial direto da fábrica. <br>Enviamos para todo o Brasil!
+                </p>
+            </div>
+            <br>
+            <div class="form">
+                <form actions="">
+                    <input type="text" placeholder="Seu melhor e-mail :)">
+                    <button>Enviar!</button>
+                </form>
+            </div>
+            <br>
+            <div class="flex">
+                <div>
+                    <img src="./Camisola Luxo.jpeg" alt="">
+                    <p>Camisola Luxo</p>
+                </div>
+                <div>
+                    <img src="./Baby Dool Luxo.jpeg" alt="">
+                    <p>Baby Doll Luxo</p>
+                </div>
+                <div>
+                    <img src="./Lingerie Premium.jpeg" alt="">
+                    <p>Lingerie Luxo</p>
+                </div>
+                <div>
+                    <img src="./Calcinha Illara Confort.jpeg" alt="">
+                    <p>Calcinha Illara Confort</p>
+                </div>
+                <div>
+                    <img src="./Calcinha Cinta Confort.jpeg" alt="">
+                    <p>Calcinha Cinta Confort</p>
+                </div>
+                <div>
+                    <img src="./Calcinha Cinta Acab.Renda.jpeg" alt="">
+                    <p>Calcinha Cinta Acabamento em Renda</p>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+
+    <script>
+        function displayabout() {
+            var arrow = document .getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document .getElementById('about');
+            display.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
